@@ -1,0 +1,28 @@
+.rdw-editor-wrapper {
+  border: 1px solid black;
+}
+
+.rdw-editor-toolbar {
+  margin-bottom: 0 !important;
+}
+
+.rdw-editor-main {
+  background-color: white;
+  padding-left: 10px;
+}
+
+.marginLeft-91 {
+  margin-left: 91px;
+}
+
+.h-199 {
+  height: 199px;
+}
+
+.edit-profile {
+  color: #abadb0;
+}
+
+.edit-profile:hover {
+  color: #6e7074;
+}

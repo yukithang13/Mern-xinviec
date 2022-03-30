@@ -1,0 +1,57 @@
+.cv-item .portfolio-item {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border: none;
+}
+
+.card-MN {
+  background-color: #103455ce;
+  color: rgb(214, 214, 214);
+}
+
+.img img {
+  height: 150px !important;
+  object-fit: unset !important;
+}
+
+.cvMN-salary {
+  font-weight: bold;
+}
+
+.cvMN-salary span a {
+  color: rgb(214, 214, 214);
+}
+
+.cvMN-salary span a:hover {
+  color: rgb(235, 229, 229);
+}
+
+.card-MN .cvMN-item-sumary .cv-title {
+  font-weight: bold;
+  line-height: normal;
+}
+
+.cvMN-item-sumary .cv-title:hover {
+  color: aqua !important;
+}
+
+.cv-img img {
+  height: 250px;
+  object-fit: fill !important;
+}
+
+.menu-recruitment {
+  margin: 5px 5px 5px 10px;
+  color: rgb(65, 56, 56);
+  position: absolute;
+  z-index: 999;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.menu-recruitment:hover {
+  cursor: pointer;
+  color: rgb(29, 24, 24);
+}

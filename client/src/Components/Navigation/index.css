@@ -1,0 +1,43 @@
+.nav-active {
+  background-color: #1abc9c;
+}
+
+.navbar {
+  transition: 0.5s;
+  animation: animationNav 1s ease-in-out;
+}
+
+@keyframes animationNav {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-custom a {
+  text-decoration: none;
+  color: white !important;
+}
+
+.nav-custom a:hover {
+  color: #1abc9c !important;
+}
+
+.tk i {
+  line-height: normal;
+}
+
+#admin {
+  margin-left: 8px;
+  margin-top: 5px;
+  transition: 0.5s;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+#admin li:hover {
+  text-decoration: underline;
+}

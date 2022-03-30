@@ -1,0 +1,39 @@
+.form-group .text-register {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.register {
+  transition: 0.5s;
+  animation: animationRegister 1s ease-in-out;
+}
+
+@keyframes animationRegister {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.onVali {
+  color: red !important;
+  animation: valiAnimation 1s;
+  transition: 0.5s;
+}
+
+.offVali{
+  display: none;
+  animation: valiAnimation 1s;
+  transition: 0.5s;
+}
+
+@keyframes valiAnimation{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

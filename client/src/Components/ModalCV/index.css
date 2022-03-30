@@ -1,0 +1,66 @@
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+  transition: 0.5s;
+  margin-top: 95px;
+  position: relative;
+  width: 80%;
+  background-color: whitesmoke;
+  z-index: 101;
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.1), 10px 40px 40px rgba(0, 0, 0, 0.1);
+}
+
+.modal-box .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal-box .react-datepicker-wrapper input {
+  border: none;
+  outline: none;
+  line-height: normal !important;
+  width: fit-content !important;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.react-datepicker-popper {
+  z-index: 3 !important;
+}
+
+.modal-box .exit {
+  font-weight: bold;
+  cursor: pointer;
+  position: "absolute";
+  top: 0px;
+  right: 16px;
+  font-size: 25px;
+  font-family: "cursive";
+}
+
+.modal-box .exit:hover {
+  color: #dc3545 !important;
+}
+
+.modal-box .description:focus {
+  background-color: rgba(255, 255, 240, 0);
+}

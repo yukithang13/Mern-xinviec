@@ -1,0 +1,33 @@
+.header-page {
+  animation: animation ease-in-out 1s;
+  transition: 0.5s;
+  top: 0;
+}
+
+.masthead-avatar {
+  opacity: 0;
+  animation: avatar 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+
+@keyframes avatar {
+  0% {
+    opacity: 0;
+    transform: translate(20%, 20%) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-550px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

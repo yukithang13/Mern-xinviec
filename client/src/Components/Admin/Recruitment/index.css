@@ -1,0 +1,21 @@
+.reload-table {
+  margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .reload-table {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .reload-table {
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .reload-table {
+    margin-left: 60px;
+  }
+}

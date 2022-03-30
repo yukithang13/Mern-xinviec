@@ -1,0 +1,92 @@
+.search {
+  transition: 0.5s;
+  animation: animationSearch 1s ease-in-out;
+}
+
+@keyframes animationSearch {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#search-input {
+  width: calc(100% - 3.5rem);
+}
+
+.loadMore {
+  font-size: 25px;
+  color: rgb(128, 129, 129);
+  animation: loadMore 0.5s alternate ease infinite;
+  transition: 0.5s;
+}
+
+.loadMore:hover {
+  color: rgb(64, 65, 66);
+}
+
+@keyframes loadMore {
+  from {
+    transform: translateY(3px);
+  }
+  to {
+    transform: translateY(-2px);
+  }
+}
+
+.search-item .portfolio-item {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border: none;
+  background-color: red;
+}
+
+.search-item-sumary {
+  background-color: #103455ce;
+  font-weight: bold;
+  padding-left: 10px !important;
+  color: rgb(214, 214, 214);
+  max-width: 25rem;
+  padding: 5px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.search-item-sumary .cvNB-title {
+  font-weight: bold;
+  line-height: normal;
+  color: rgb(214, 214, 214);
+}
+
+.search-item-sumary .search-title:hover {
+  color: whitesmoke;
+}
+
+.search-img img {
+  height: 250px;
+  object-fit: fill !important;
+}
+
+.body-list-search ul a {
+  cursor: pointer;
+  user-select: none;
+}
+
+.body-list-search ul a {
+  color: black;
+}
+
+.body-list-search ul a:hover li {
+  text-decoration: none;
+  background-color: #103455ce;
+  color: whitesmoke;
+}
+
+.body-list-search ul a:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}

@@ -1,0 +1,117 @@
+.detail-recruitment .title {
+  width: fit-content;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.detail-recruitment .time-create {
+  font-style: italic;
+  color: #515356c7;
+}
+
+.detail-recruitment .city {
+  font-style: italic;
+  color: #515356c7;
+}
+.detail-recruitment .writer {
+  font-style: italic;
+  color: #515356c7;
+}
+
+.detail-recruitment .image-gallery-image {
+  max-height: 350px !important;
+  max-width: 550px !important;
+}
+
+.no-detail-recruitment .image-gallery-image {
+  cursor: auto;
+}
+
+.detail-recruitment .image-gallery-slide .image-gallery-image {
+  object-fit: fill;
+}
+
+.detail-recruitment .description {
+}
+
+.detail-recruitment .contact {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.detail-recruitment .box {
+  border-radius: 15px;
+  box-sizing: border-box;
+  box-shadow: inset 4px 4px 5px rgba(255, 255, 255, 0.3),
+    inset -4px -4px 5px rgba(0, 0, 0, 0.1), 10px 40px 40px rgba(0, 0, 0, 0.1);
+}
+
+.loading-detail {
+  margin-top: 190px;
+  font-size: 100px;
+  min-height: 300px;
+}
+
+.detail-img .image-gallery-image {
+  width: 700px !important;
+  height: 400px !important;
+  max-width: 700px !important;
+  max-height: 400px !important;
+}
+
+.detail-img-100 {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.city a {
+  color: #515356c7;
+}
+
+.city a:hover {
+  color: #252629;
+}
+
+@media (max-width: 767px) {
+  .detail-img .image-gallery-image {
+    width: 25em !important;
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 463px) {
+  .detail-img .image-gallery-image {
+    width: 18em !important;
+    height: 200px !important;
+  }
+}
+
+@media (max-width: 365px) {
+  .detail-img .image-gallery-image {
+    width: 15em !important;
+    height: 180px !important;
+  }
+}
+
+@media (max-width: 305px) {
+  .detail-img .image-gallery-image {
+    width: 13em !important;
+    height: 170px !important;
+  }
+}
+
+.recruitmentFalse {
+  margin-top: 200px;
+  font-size: 45px;
+  min-height: 67px;
+}
+.reloadRecruitFalse {
+  margin-bottom: 150px;
+}
+
+@media (max-width: 466px) {
+  .loading-detail {
+    font-size: 50px;
+  }
+}

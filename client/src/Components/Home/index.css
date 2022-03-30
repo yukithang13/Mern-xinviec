@@ -1,0 +1,5 @@
+.main {
+  animation: animation ease-in-out 1s;
+  transition: 0.5s;
+  top: 0;
+}

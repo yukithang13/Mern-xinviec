@@ -1,0 +1,18 @@
+.text-login {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.login{
+  transition: 0.5s;
+  animation: animationLogin 1s ease-in-out ;
+}
+
+@keyframes animationLogin{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
